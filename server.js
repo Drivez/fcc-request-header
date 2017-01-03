@@ -1,7 +1,5 @@
 var server = require('express');
 var app = server();
-var moment = require('moment');
-var fs = require('fs');
 var path = require('path');
 
 var port = process.env.PORT || 3500;
